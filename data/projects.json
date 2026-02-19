@@ -1,0 +1,96 @@
+{
+    "en": [
+        {
+			"id": "ecosync",
+			"imgSrc": "../assets/images/void.png",
+            "imgAlt": "EcoSync Platform Screenshot",
+			"title": "EcoSync Platform",
+            "tags": ["Web"],
+			"link": "",
+			"shortDescription": "A green-energy monitoring web dashboard.",
+			"modalTitle": "Project Case Study",
+			"description": "We developed EcoSync Platform with a focus on core scalability and seamless performance across multiple environments. Our team utilized automated testing suites to ensure 99.9% uptime and zero-defect deployment.",
+			"details": {
+                "durationInfo": "12 Weeks",
+                "techInfo": ["Full Stack"]
+            }
+		},
+        {
+			"id": "wallet",
+			"imgSrc": "../assets/images/void.png",
+            "imgAlt": "Nebula Wallet Screenshot",
+			"title": "Nebula Wallet",
+            "tags": ["App"],
+			"link": "",
+			"shortDescription": "Secure crypto-asset manager for mobile.",
+			"modalTitle": "Project Case Study",
+			"description": "We developed Nebula Wallet with a focus on core scalability and seamless performance across multiple environments. Our team utilized automated testing suites to ensure 99.9% uptime and zero-defect deployment.",
+			"details": {
+                "durationInfo": "12 Weeks",
+                "techInfo": ["Full Stack"]
+            }
+		},
+        {
+			"id": "flowbot",
+			"imgSrc": "../assets/images/void.png",
+            "imgAlt": "FlowBot AI Screenshot",
+			"title": "FlowBot AI",
+            "tags": ["Automation"],
+			"link": "",
+			"shortDescription": "Intelligent customer service automation suite.",
+			"modalTitle": "Project Case Study",
+			"description": "We developed FlowBot AI with a focus on core scalability and seamless performance across multiple environments. Our team utilized automated testing suites to ensure 99.9% uptime and zero-defect deployment.",
+			"details": {
+                "durationInfo": "12 Weeks",
+                "techInfo": ["Full Stack"]
+            }
+		}
+    ],
+    "es": [
+        {
+			"id": "ecosync",
+			"imgSrc": "../assets/images/void.png",
+            "imgAlt": "Captura de Pantalla de la Plataforma EcoSync",
+			"title": "Platforma EcoSync",
+            "tags": ["Web"],
+			"link": "",
+			"shortDescription": "Tablero web de monitoreo de energía verde.",
+			"modalTitle": "Caso de Estudio del Proyecto",
+			"description": "Desarrollamos la Plataforma EcoSync con un enfoque en la escalabilidad del núcleo y un rendimiento fluido en múltiples entornos. Nuestro equipo utilizó suites de pruebas automatizadas para garantizar un tiempo de actividad del 99,9 % y una implementación sin defectos.",
+			"details": {
+                "durationInfo": "12 Semanas",
+                "techInfo": ["Full Stack"]
+            }
+		},
+        {
+			"id": "wallet",
+			"imgSrc": "../assets/images/void.png",
+            "imgAlt": "Captura de Pantalla de la Nebula Billetera Nebula",
+			"title": "Billetera Nebula",
+            "tags": ["App"],
+			"link": "",
+			"shortDescription": "Gestor seguro de criptoactivos para móviles.",
+			"modalTitle": "Caso de Estudio del Proyecto",
+			"description": "Desarrollamos Nebula Wallet con un enfoque en la escalabilidad del núcleo y un rendimiento fluido en múltiples entornos. Nuestro equipo utilizó conjuntos de pruebas automatizadas para garantizar un tiempo de actividad del 99,9 % y una implementación sin defectos.",
+			"details": {
+                "durationInfo": "12 Semanas",
+                "techInfo": ["Full Stack"]
+            }
+		},
+        {
+			"id": "flowbot",
+			"imgSrc": "../assets/images/void.png",
+            "imgAlt": "Captura de Pantalla de FlowBot AI",
+			"title": "FlowBot AI",
+            "tags": ["Automatización"],
+			"link": "",
+			"shortDescription": "Suite de automatización de servicio al cliente inteligente.",
+			"modalTitle": "Caso de Estudio del Proyecto",
+			"description": "Desarrollamos FlowBot AI con un enfoque en la escalabilidad del núcleo y un rendimiento impecable en múltiples entornos. Nuestro equipo utilizó suites de pruebas automatizadas para garantizar un tiempo de actividad del 99,9 % y una implementación sin defectos.",
+			"details": {
+                "durationInfo": "12 Semanas",
+                "techInfo": ["Full Stack"]
+            }
+		}
+    ]
+}

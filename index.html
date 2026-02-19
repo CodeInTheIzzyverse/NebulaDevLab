@@ -1,0 +1,773 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/styles.css" />
+		<title>Nebula DevLab</title>
+		<meta name="description" content="" />
+	</head>
+	<body>
+		<header>
+			<a href="#hero" class="header_logo">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="256"
+					height="256"
+					viewBox="0 0 256 256"
+				>
+					<path
+						fill="#fff"
+						d="m213.85 125.46l-112 120a8 8 0 0 1-13.69-7l14.66-73.33l-57.63-21.64a8 8 0 0 1-3-13l112-120a8 8 0 0 1 13.69 7l-14.7 73.41l57.63 21.61a8 8 0 0 1 3 12.95Z"
+					/>
+				</svg>
+				<span>Nebula</span>
+			</a>
+			<nav class="header_nav" id="header_nav">
+				<ul>
+					<li>
+						<a
+							class="navbar_link"
+							data-i18n="nav_about"
+							href="#about"
+						></a>
+					</li>
+					<li>
+						<a
+							class="navbar_link"
+							data-i18n="nav_services"
+							href="#services"
+						></a>
+					</li>
+					<li>
+						<a
+							class="navbar_link"
+							data-i18n="nav_process"
+							href="#process"
+						></a>
+					</li>
+					<li>
+						<a
+							class="navbar_link"
+							data-i18n="nav_projects"
+							href="#projects"
+						></a>
+					</li>
+					<li>
+						<a
+							class="navbar_link"
+							data-i18n="nav_faq"
+							href="#faq"
+						></a>
+					</li>
+					<li>
+						<a
+							class="navbar_link"
+							data-i18n="nav_contact"
+							href="#contact"
+						></a>
+					</li>
+				</ul>
+			</nav>
+			<div class="header_tools">
+				<button id="lang_btn">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+					>
+						<path
+							fill="#fff"
+							d="M8.5 20.29q-1.642-.711-2.86-1.93T3.71 15.5T3 11.997t.71-3.5T5.64 5.64T8.5 3.71Q10.142 3 12.003 3q1.86 0 3.5.71q1.64.711 2.858 1.93t1.929 2.857q.71 1.64.71 3.5t-.71 3.503q-.711 1.642-1.93 2.86t-2.857 1.93t-3.5.71t-3.503-.71m3.5-.282q.88-1.131 1.452-2.221q.571-1.09.929-2.44H9.619q.397 1.426.948 2.517q.552 1.09 1.433 2.144m-1.273-.15q-.7-.825-1.278-2.04q-.578-1.214-.86-2.472H4.754q.86 1.865 2.437 3.06q1.578 1.194 3.536 1.452m2.546 0q1.958-.258 3.536-1.452q1.577-1.195 2.437-3.06h-3.834q-.38 1.277-.957 2.491q-.578 1.215-1.182 2.02m-8.927-5.51h4.035q-.114-.616-.16-1.2q-.048-.583-.048-1.147t.047-1.147t.16-1.2H4.347q-.163.52-.255 1.133Q4 11.398 4 12t.091 1.215t.255 1.131m5.035 0h5.238q.114-.615.16-1.18q.048-.564.048-1.166t-.047-1.166t-.16-1.18H9.38q-.113.615-.16 1.18q-.047.564-.047 1.166t.047 1.166t.16 1.18m6.24 0h4.034q.163-.519.255-1.131Q20 12.602 20 12t-.091-1.215t-.255-1.131h-4.035q.114.615.16 1.199q.048.584.048 1.147t-.047 1.147t-.16 1.2m-.208-5.693h3.834q-.879-1.904-2.408-3.06t-3.565-1.471q.7.921 1.259 2.107q.559 1.185.88 2.424m-5.793 0h4.762q-.396-1.408-.977-2.546T12 3.992q-.823.977-1.404 2.116T9.62 8.654m-4.865 0h3.834q.321-1.238.88-2.424t1.259-2.107q-2.054.316-3.574 1.48q-1.52 1.166-2.4 3.05"
+						/>
+					</svg>
+					<span id="lang_text"></span>
+				</button>
+				<button id="mode_btn" data-theme="light-mode"></button>
+			</div>
+			<button id="hamburger-btn" class="hamburger">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="24"
+					height="24"
+					viewBox="0 0 24 24"
+				>
+					<path
+						fill="#fff"
+						d="M4.5 17.27q-.213 0-.356-.145T4 16.768t.144-.356t.356-.143h15q.213 0 .356.144q.144.144.144.357t-.144.356t-.356.143zm0-4.77q-.213 0-.356-.144T4 11.999t.144-.356t.356-.143h15q.213 0 .356.144t.144.357t-.144.356t-.356.143zm0-4.77q-.213 0-.356-.143Q4 7.443 4 7.23t.144-.356t.356-.143h15q.213 0 .356.144T20 7.23t-.144.356t-.356.144z"
+					/>
+				</svg>
+			</button>
+		</header>
+
+		<main>
+			<section id="hero">
+				<article class="hero_text">
+					<span class="hero_badge">Nebula DevLab</span>
+					<h1 data-i18n="title"></h1>
+					<p data-i18n="description"></p>
+					<div class="hero_btns">
+						<a href="#about">
+							<button
+								data-i18n="hero_primary_btn"
+								data-btn="primary"
+							></button>
+						</a>
+						<a href="#services">
+							<button
+								data-i18n="nav_services"
+								data-btn="secondary"
+							></button>
+						</a>
+					</div>
+				</article>
+
+				<article class="hero_imgContainer">
+					<div class="hero_img">
+						<img src="./assets/images/void.png" id="hero_img" />
+					</div>
+					<div class="hero_badge">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+						>
+							<path
+								fill="#fff"
+								d="m10.562 14.492l-2.496-2.496q-.141-.14-.345-.15t-.363.15t-.16.354t.16.354l2.638 2.638q.242.243.565.243t.566-.243l5.477-5.476q.14-.141.15-.345t-.15-.363t-.354-.16t-.354.16zM12.003 21q-1.866 0-3.51-.708q-1.643-.709-2.859-1.924t-1.925-2.856T3 12.003t.709-3.51Q4.417 6.85 5.63 5.634t2.857-1.925T11.997 3t3.51.709q1.643.708 2.859 1.922t1.925 2.857t.709 3.509t-.708 3.51t-1.924 2.859t-2.856 1.925t-3.509.709M12 20q3.35 0 5.675-2.325T20 12t-2.325-5.675T12 4T6.325 6.325T4 12t2.325 5.675T12 20m0-8"
+							/>
+						</svg>
+						<div class="hero_badge_text">
+							<span data-i18n="hero_badge_title"></span>
+							<p data-i18n="hero_badge_text"></p>
+						</div>
+					</div>
+				</article>
+
+				<article class="stars"></article>
+			</section>
+
+			<section id="about">
+				<div class="about_container">
+					<article class="about_text">
+						<h2 data-i18n="about_title"></h2>
+						<p data-i18n="about_description"></p>
+
+						<div class="about_cards">
+							<div class="about_card">
+								<svg
+									data-svg="primary"
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+								>
+									<path
+										fill="currentColor"
+										d="M8.493 20.292q-1.643-.709-2.859-1.924t-1.925-2.856T3 12.003t.709-3.51Q4.417 6.85 5.63 5.634t2.857-1.925T11.997 3t3.51.709q1.643.708 2.859 1.922t1.925 2.857t.709 3.509t-.708 3.51t-1.924 2.859t-2.856 1.925t-3.509.709t-3.51-.708m9.182-2.617Q20 15.35 20 12t-2.325-5.675T12 4T6.325 6.325T4 12t2.325 5.675T12 20t5.675-2.325m-9.214-2.132Q7 14.086 7 12.005T8.457 8.46T11.995 7t3.544 1.457T17 11.995t-1.457 3.544T12.005 17T8.46 15.543m6.364-.718Q16 13.65 16 12t-1.175-2.825T12 8T9.175 9.175T8 12t1.175 2.825T12 16t2.825-1.175m-3.526-2.124Q11 12.402 11 12t.299-.701T12 11t.701.299T13 12t-.299.701T12 13t-.701-.299"
+									/>
+								</svg>
+								<h3 data-i18n="about_mission_title"></h3>
+								<p data-i18n="about_mission_text"></p>
+							</div>
+
+							<div class="about_card">
+								<svg
+									data-svg="secondary"
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+								>
+									<path
+										fill="currentColor"
+										d="m5.189 11.217l2.45 1.037q.465-.931 1.013-1.802t1.21-1.694l-1.535-.294q-.154-.039-.298.009t-.26.163zm3.242 1.671l2.83 2.826q1.185-.535 2.385-1.36t2.308-1.933q1.615-1.615 2.468-3.445t.959-4.226q-2.396.106-4.22.959q-1.822.853-3.438 2.468q-1.107 1.108-1.932 2.317t-1.36 2.394m4.74-3.431q0-.617.44-1.057q.441-.44 1.07-.44t1.069.44t.44 1.057t-.44 1.056t-1.07.44t-1.068-.44t-.44-1.056m-.259 9.504l2.581-2.58q.115-.116.164-.26q.048-.144.01-.298l-.295-1.535q-.823.662-1.694 1.207t-1.802 1.01zM20.316 3.83q.168 2.756-.78 5.07q-.947 2.315-2.95 4.318l-.174.173l-.173.173l.404 2.052q.081.404-.03.783q-.112.379-.404.671l-3.642 3.623l-1.658-3.905l-3.564-3.564l-3.905-1.677l3.617-3.623q.292-.292.674-.413t.786-.04l2.09.422q.096-.096.163-.173t.164-.173q2.004-2.004 4.315-2.944t5.068-.773m-15.2 12.337q.587-.586 1.426-.58t1.426.594t.584 1.426q-.003.84-.59 1.426q-.51.51-1.635.873t-2.605.502q.139-1.48.512-2.605t.882-1.636m.714.727q-.289.289-.539.942t-.33 1.347q.694-.081 1.347-.338q.652-.256.941-.545q.3-.3.306-.715q.005-.416-.295-.716t-.715-.287q-.415.012-.715.312"
+									/>
+								</svg>
+								<h3 data-i18n="about_vision_title"></h3>
+								<p data-i18n="about_vision_text"></p>
+							</div>
+						</div>
+					</article>
+
+					<article class="about_imgContainer">
+						<img src="./assets/images/void.png" id="about_img" />
+					</article>
+				</div>
+			</section>
+
+			<section id="services">
+				<div class="services_container">
+					<h2 data-i18n="services_title"></h2>
+
+					<article
+						class="services_cards"
+						id="services_cards"
+					></article>
+				</div>
+			</section>
+
+			<section id="process">
+				<h2 data-i18n="process_title"></h2>
+
+				<article class="processItems">
+					<div class="processItem">
+						<div class="processItem_icon">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+							>
+								<path
+									fill="#fff"
+									d="M3 20.077V4.616q0-.691.463-1.153T4.615 3h14.77q.69 0 1.152.463T21 4.616v10.769q0 .69-.463 1.153T19.385 17H6.077zM5.65 16h13.735q.23 0 .423-.192t.192-.423V4.615q0-.23-.192-.423T19.385 4H4.615q-.23 0-.423.192T4 4.615v13.03zM4 16V4z"
+								/>
+							</svg>
+							<span class="processNumber">1</span>
+						</div>
+						<h3 data-i18n="process_discovery_title"></h3>
+						<p data-i18n="process_discovery_description"></p>
+					</div>
+
+					<div class="processItem">
+						<div class="processItem_icon">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+							>
+								<path
+									fill="#fff"
+									d="M12.003 21q-1.866 0-3.51-.708q-1.643-.709-2.859-1.924t-1.925-2.856T3 12.003t.709-3.51Q4.417 6.85 5.63 5.634t2.857-1.925T11.997 3t3.51.709q1.643.708 2.859 1.922t1.925 2.857t.709 3.509t-.708 3.51t-1.924 2.859t-2.856 1.925t-3.509.709M12 20q3.35 0 5.675-2.325T20 12t-2.325-5.675T12 4T6.325 6.325T4 12t2.325 5.675T12 20m-3.384-4.615v-2.21l5.332-5.308q.148-.128.306-.19q.157-.061.315-.061q.171 0 .337.064t.302.193l.925.944q.123.149.187.308q.065.16.065.32q0 .159-.062.321t-.19.311l-5.308 5.308zm6.884-5.94l-.925-.945zm-6 5.055h.95l3.467-3.473l-.45-.495l-.475-.468L9.5 13.55zm3.967-3.968l-.475-.469l.925.964z"
+								/>
+							</svg>
+							<span class="processNumber">2</span>
+						</div>
+						<h3 data-i18n="process_architecture_title"></h3>
+						<p data-i18n="process_architecture_description"></p>
+					</div>
+
+					<div class="processItem">
+						<div class="processItem_icon">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+							>
+								<path
+									fill="#fff"
+									d="M8 17.308L2.692 12L8 6.692l.714.714l-4.6 4.6L8.708 16.6zm8 0l-.713-.714l4.6-4.6L15.292 7.4L16 6.692L21.308 12z"
+								/>
+							</svg>
+							<span class="processNumber">3</span>
+						</div>
+						<h3 data-i18n="process_development_title"></h3>
+						<p data-i18n="process_development_description"></p>
+					</div>
+
+					<div class="processItem">
+						<div class="processItem_icon">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+							>
+								<path
+									fill="#fff"
+									d="m3.7 11.287l3.623-3.624q.293-.292.671-.413t.783-.04l1.415.294Q9.073 8.873 8.366 9.98t-1.414 2.688zm4.125 1.62q.652-1.51 1.563-2.89q.91-1.378 2.08-2.548q1.873-1.873 4.073-2.806t4.746-.797q.136 2.546-.795 4.746t-2.803 4.073q-1.164 1.163-2.548 2.07t-2.897 1.559zm7.236-2.328q.626 0 1.066-.44q.44-.441.44-1.057t-.44-1.057q-.44-.44-1.066-.44t-1.067.44t-.44 1.057t.44 1.056t1.067.44m-2.228 9.874L11.444 17.2q1.581-.706 2.691-1.423q1.111-.717 2.48-1.836l.289 1.415q.08.404-.031.785q-.111.382-.404.675zm-7.687-4.306q.587-.586 1.423-.58t1.423.594q.587.586.587 1.423t-.587 1.423q-.51.51-1.635.873t-2.605.502q.138-1.479.511-2.602t.883-1.633"
+								/>
+							</svg>
+							<span class="processNumber">4</span>
+						</div>
+						<h3 data-i18n="process_launch_title"></h3>
+						<p data-i18n="process_launch_description"></p>
+					</div>
+				</article>
+			</section>
+
+			<section id="projects">
+				<div class="projects_container">
+					<article class="projects_header">
+						<h2 data-i18n="projects_title"></h2>
+
+						<aside
+							class="projects_filters"
+							id="projects_filters"
+						></aside>
+					</article>
+
+					<article class="projects_grid" id="projects_grid"></article>
+				</div>
+			</section>
+
+			<section id="testimonials">
+				<h2 data-i18n="testimonials_title"></h2>
+
+				<article class="testimonials_carrousel">
+					<button class="arrow" id="leftArrow">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+						>
+							<path
+								fill="#fff"
+								d="m12 15.289l.689-.689l-2.1-2.1H15.5v-1h-4.911l2.1-2.1L12 8.711L8.711 12zM12.003 21q-1.867 0-3.51-.708q-1.643-.709-2.859-1.924t-1.925-2.856T3 12.003t.709-3.51Q4.417 6.85 5.63 5.634t2.857-1.925T11.997 3t3.51.709q1.643.708 2.859 1.922t1.925 2.857t.709 3.509t-.708 3.51t-1.924 2.859t-2.856 1.925t-3.509.709M12 20q3.35 0 5.675-2.325T20 12t-2.325-5.675T12 4T6.325 6.325T4 12t2.325 5.675T12 20m0-8"
+							/>
+						</svg>
+					</button>
+					<div class="testimonials_viewport">
+						<div class="testimonials_container">
+							<div class="testimonial_card">
+								<img
+									src="./assets/images/void.png"
+									alt="Sarah Connor"
+								/>
+								<blockquote class="testimonial_msg">
+									<p class="testimonial_p">
+										"<span
+											data-i18n="testimonial_sarah_text"
+										></span
+										>"
+									</p>
+									<footer>
+										<cite>Sarah Connor</cite>
+										<span
+											data-i18n="testimonial_sarah_rol"
+										></span>
+									</footer>
+								</blockquote>
+							</div>
+
+							<div class="testimonial_card">
+								<img
+									src="./assets/images/void.png"
+									alt="James Holden"
+								/>
+								<blockquote class="testimonial_msg">
+									<p class="testimonial_p">
+										"<span
+											data-i18n="testimonial_james_text"
+										></span
+										>"
+									</p>
+									<footer>
+										<cite>James Holden</cite>
+										<span
+											data-i18n="testimonial_james_rol"
+										></span>
+									</footer>
+								</blockquote>
+							</div>
+
+							<div class="testimonial_card">
+								<img
+									src="./assets/images/void.png"
+									alt="Chrisjen Avasarala"
+								/>
+								<blockquote class="testimonial_msg">
+									<p class="testimonial_p">
+										"<span
+											data-i18n="testimonial_chrisjen_text"
+										></span
+										>"
+									</p>
+									<footer>
+										<cite>Chrisjen Avasarala</cite>
+										<span
+											data-i18n="testimonial_chrisjen_rol"
+										></span>
+									</footer>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+					<button class="arrow" id="rightArrow">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+						>
+							<path
+								fill="#fff"
+								d="M12 15.289L15.288 12L12 8.711l-.688.689l2.1 2.1H8.5v1h4.912l-2.1 2.1zM12.003 21q-1.867 0-3.51-.708q-1.643-.709-2.859-1.924t-1.925-2.856T3 12.003t.709-3.51Q4.417 6.85 5.63 5.634t2.857-1.925T11.997 3t3.51.709q1.643.708 2.859 1.922t1.925 2.857t.709 3.509t-.708 3.51t-1.924 2.859t-2.856 1.925t-3.509.709M12 20q3.35 0 5.675-2.325T20 12t-2.325-5.675T12 4T6.325 6.325T4 12t2.325 5.675T12 20m0-8"
+							/>
+						</svg>
+					</button>
+				</article>
+
+				<article class="testimonials_progress"></article>
+			</section>
+
+			<section id="faq">
+				<div class="faq_container">
+					<h2 data-i18n="faq_title"></h2>
+
+					<article class="faq_accordion">
+						<details class="faq_item" open>
+							<summary>
+								<span data-i18n="faq_q1"></span>
+								<svg
+									class="faq_marker open"
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+								>
+									<path
+										fill="currentColor"
+										d="M11.625 14.913q-.175-.063-.325-.213l-4.6-4.6q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275l3.9 3.9l3.9-3.9q.275-.275.7-.275t.7.275t.275.7t-.275.7l-4.6 4.6q-.15.15-.325.213t-.375.062t-.375-.062"
+									/>
+								</svg>
+							</summary>
+							<p data-i18n="faq_q1_answer"></p>
+						</details>
+
+						<details class="faq_item">
+							<summary>
+								<span data-i18n="faq_q2"></span>
+								<svg
+									class="faq_marker"
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+								>
+									<path
+										fill="currentColor"
+										d="M11.625 14.913q-.175-.063-.325-.213l-4.6-4.6q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275l3.9 3.9l3.9-3.9q.275-.275.7-.275t.7.275t.275.7t-.275.7l-4.6 4.6q-.15.15-.325.213t-.375.062t-.375-.062"
+									/>
+								</svg>
+							</summary>
+							<p data-i18n="faq_q2_answer"></p>
+						</details>
+
+						<details class="faq_item">
+							<summary>
+								<span data-i18n="faq_q3"></span>
+								<svg
+									class="faq_marker"
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+								>
+									<path
+										fill="currentColor"
+										d="M11.625 14.913q-.175-.063-.325-.213l-4.6-4.6q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275l3.9 3.9l3.9-3.9q.275-.275.7-.275t.7.275t.275.7t-.275.7l-4.6 4.6q-.15.15-.325.213t-.375.062t-.375-.062"
+									/>
+								</svg>
+							</summary>
+							<p data-i18n="faq_q3_answer"></p>
+						</details>
+					</article>
+				</div>
+			</section>
+
+			<section id="contact">
+				<div class="contact_container">
+					<article class="contact_info">
+						<h2 data-i18n="contact_title"></h2>
+						<p data-i18n="contact_description"></p>
+
+						<div class="contact_info_items">
+							<div class="contact_info_item">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+								>
+									<path
+										fill="currentColor"
+										d="m6 18l-2.3 2.3q-.475.475-1.088.213T2 19.575V4q0-.825.588-1.412T4 2h16q.825 0 1.413.588T22 4v12q0 .825-.587 1.413T20 18zm-.85-2H20V4H4v13.125zM4 16V4z"
+									/>
+								</svg>
+								<div class="contact_item_content">
+									<span data-i18n="contact_email"></span>
+									<p>hello@nebuladev.com</p>
+								</div>
+							</div>
+
+							<div class="contact_info_item">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+								>
+									<path
+										fill="currentColor"
+										d="M8.1 21.213q-1.825-.788-3.175-2.138T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22t-3.9-.788m9.575-3.537Q20 15.35 20 12t-2.325-5.675T12 4T6.325 6.325T4 12t2.325 5.675T12 20t5.675-2.325M7.75 16.25Q6 14.5 6 12t1.75-4.25T12 6t4.25 1.75T18 12t-1.75 4.25T12 18t-4.25-1.75m7.075-1.425Q16 13.65 16 12t-1.175-2.825T12 8T9.175 9.175T8 12t1.175 2.825T12 16t2.825-1.175m-4.237-1.412Q10 12.825 10 12t.588-1.412T12 10t1.413.588T14 12t-.587 1.413T12 14t-1.412-.587"
+									/>
+								</svg>
+								<div class="contact_item_content">
+									<span data-i18n="contact_hq"></span>
+									<p data-i18n="contact_hq_text"></p>
+								</div>
+							</div>
+						</div>
+					</article>
+
+					<form class="contact_form" id="contact_form">
+						<div class="contact_form_group">
+							<div class="contact_form_item">
+								<label
+									for="name"
+									data-i18n="contact_username"
+								></label>
+								<input
+									name="name"
+									type="text"
+									id="name"
+									placeholder="John Doe"
+								/>
+								<p id="name_error"></p>
+							</div>
+
+							<div class="contact_form_item">
+								<label
+									for="email"
+									data-i18n="contact_useremail"
+								></label>
+								<input
+									name="email"
+									type="email"
+									id="email"
+									placeholder="john@example.com"
+								/>
+								<p id="email_error"></p>
+							</div>
+						</div>
+
+						<div class="contact_form_item">
+							<label
+								for="subject"
+								data-i18n="contact_subject"
+							></label>
+							<input
+								name="subject"
+								type="text"
+								id="subject"
+								placeholder="App"
+							/>
+							<p id="subject_error"></p>
+						</div>
+
+						<div class="contact_form_item">
+							<label
+								for="message"
+								data-i18n="contact_msg"
+							></label>
+							<textarea
+								name="message"
+								id="message"
+								data-i18n="contact_msg_ph"
+							></textarea>
+							<p id="message_error"></p>
+						</div>
+
+						<p id="general_error"></p>
+
+						<button type="submit" data-btn="primary">
+							<span data-i18n="contact_btn"></span>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+							>
+								<path
+									fill="currentColor"
+									d="M4.4 19.425q-.5.2-.95-.088T3 18.5V14l8-2l-8-2V5.5q0-.55.45-.837t.95-.088l15.4 6.5q.625.275.625.925t-.625.925z"
+								/>
+							</svg>
+						</button>
+					</form>
+				</div>
+			</section>
+
+			<section id="modals"></section>
+		</main>
+
+		<div class="loader"></div>
+
+		<button class="up" id="upBtn">
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				width="24"
+				height="24"
+				viewBox="0 0 24 24"
+			>
+				<path
+					fill="currentColor"
+					d="m12 10.8l-3.9 3.9q-.275.275-.7.275t-.7-.275t-.275-.7t.275-.7l4.6-4.6q.3-.3.7-.3t.7.3l4.6 4.6q.275.275.275.7t-.275.7t-.7.275t-.7-.275z"
+				/>
+			</svg>
+		</button>
+
+		<footer class="footer">
+			<div class="footer_container">
+				<section class="columns">
+					<article class="footer_brand">
+						<div class="footer_logo">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="256"
+								height="256"
+								viewBox="0 0 256 256"
+							>
+								<path
+									fill="#fff"
+									d="m213.85 125.46l-112 120a8 8 0 0 1-13.69-7l14.66-73.33l-57.63-21.64a8 8 0 0 1-3-13l112-120a8 8 0 0 1 13.69 7l-14.7 73.41l57.63 21.61a8 8 0 0 1 3 12.95Z"
+								/>
+							</svg>
+							<span>Nebula</span>
+						</div>
+						<p data-i18n="footer_description"></p>
+						<div class="footer_social">
+							<a href="">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+								>
+									<path
+										fill="currentColor"
+										d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z"
+									/>
+								</svg>
+							</a>
+							<a href="">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+								>
+									<path
+										fill="currentColor"
+										d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"
+									/>
+								</svg>
+							</a>
+							<a href="">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+								>
+									<path
+										fill="currentColor"
+										d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"
+									/>
+								</svg>
+							</a>
+						</div>
+					</article>
+
+					<article class="footer_navigation">
+						<h3 data-i18n="footer_nav"></h3>
+						<nav class="footer_nav">
+							<ul>
+								<li>
+									<a
+										class="footer_navItem"
+										data-i18n="nav_about"
+										href="#about"
+									></a>
+								</li>
+								<li>
+									<a
+										class="footer_navItem"
+										data-i18n="nav_services"
+										href="#services"
+									></a>
+								</li>
+								<li>
+									<a
+										class="footer_navItem"
+										data-i18n="nav_projects"
+										href="#projects"
+									></a>
+								</li>
+								<li>
+									<a
+										class="footer_navItem"
+										data-i18n="nav_contact"
+										href="#contact"
+									></a>
+								</li>
+							</ul>
+						</nav>
+					</article>
+
+					<article class="footer_contact">
+						<h3 data-i18n="footer_contact"></h3>
+
+						<ul>
+							<li>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+								>
+									<path
+										fill="currentColor"
+										d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h10.1q-.1.5-.1 1t.1 1H4l8 5l3.65-2.275q.35.325.763.563t.862.412L12 13L4 8v10h16V9.9q.575-.125 1.075-.35T22 9v9q0 .825-.587 1.413T20 20zM4 6v12zm12.875 1.125Q16 6.25 16 5t.875-2.125T19 2t2.125.875T22 5t-.875 2.125T19 8t-2.125-.875"
+									/>
+								</svg>
+								<span>hello@nebuladev.com</span>
+							</li>
+							<li>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+								>
+									<path
+										fill="currentColor"
+										d="M4.05 21q-.45 0-.75-.3t-.3-.75V15.9q0-.325.225-.587t.575-.363l3.45-.7q.35-.05.713.063t.587.337L10.9 17q.95-.55 1.8-1.213t1.625-1.437q.825-.8 1.513-1.662t1.187-1.788L14.6 8.45q-.2-.2-.275-.475T14.3 7.3l.65-3.5q.05-.325.325-.562T15.9 3h4.05q.45 0 .75.3t.3.75q0 3.125-1.362 6.175t-3.863 5.55t-5.55 3.863T4.05 21"
+									/>
+								</svg>
+								<span>+57 1234567890</span>
+							</li>
+							<li>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+								>
+									<path
+										fill="currentColor"
+										d="M11.3 21.2q-.35-.125-.625-.375Q9.05 19.325 7.8 17.9t-2.087-2.762t-1.275-2.575T4 10.2q0-3.75 2.413-5.975T12 2t5.588 2.225T20 10.2q0 1.125-.437 2.363t-1.275 2.575T16.2 17.9t-2.875 2.925q-.275.25-.625.375t-.7.125t-.7-.125m2.113-9.787Q14 10.825 14 10t-.587-1.412T12 8t-1.412.588T10 10t.588 1.413T12 12t1.413-.587"
+									/>
+								</svg>
+								<span data-i18n="footer_hq"></span>
+							</li>
+						</ul>
+					</article>
+				</section>
+
+				<section class="copyright">
+					<p data-i18n="footer_copyright"></p>
+				</section>
+			</div>
+		</footer>
+
+		<script type="module" src="js/main.js"></script>
+	</body>
+</html>

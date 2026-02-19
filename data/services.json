@@ -1,0 +1,114 @@
+{
+	"en": [
+		{
+			"id": "web_service",
+			"icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><path fill='#fff' d='M4.616 19q-.691 0-1.153-.462T3 17.384V6.616q0-.691.463-1.153T4.615 5h14.77q.69 0 1.152.463T21 6.616v10.769q0 .69-.463 1.153T19.385 19zm0-1H15v-3.884H4v3.269q0 .23.192.423t.423.192M16 18h3.385q.23 0 .423-.192t.192-.424V9.231h-4zM4 13.116h11V9.23H4z' /></svg>",
+			"title": "Web Development",
+			"shortDescription": "Stunning, high-performance web applications tailored to your business needs.",
+			"modalTitle": "Expert Web Development",
+			"description": "Our web development process focuses on scalability, security, and exceptional user experience. We use modern stacks like React, Next.js, and Node.js to build everything from corporate sites to complex SaaS platforms. Every line of code is optimized for SEO and speed.",
+			"details": [
+				{
+                    "detailName": "Agile Process",
+                    "detailInfo": "Iterative cycles ensuring transparency and high quality at every milestone."
+				},
+                {
+                    "detailName": "24/7 Support",
+                    "detailInfo": "Post-launch monitoring and dedicated technical help desk for your peace of mind."
+                }
+			]
+		},
+        {
+			"id": "mobile_service",
+			"icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><path fill='#fff' d='M7.616 22q-.672 0-1.144-.472T6 20.385V3.615q0-.69.463-1.152T7.616 2h8.846q.67 0 1.143.472q.472.472.472 1.144V6.83q.373.04.648.31q.275.269.275.648v1.769q0 .379-.275.648t-.648.31v9.869q0 .67-.472 1.143q-.472.472-1.143.472zm0-1h8.846q.269 0 .442-.173t.173-.442V3.615q0-.269-.173-.442T16.462 3H7.616q-.27 0-.443.173T7 3.616v16.769q0 .269.173.442t.443.173M7 21V3zm5.588-1.99q.22-.22.22-.549q0-.328-.22-.548t-.55-.22t-.548.22t-.22.549t.22.549t.549.22t.549-.22' /></svg>",
+			"title": "Mobile Apps",
+			"shortDescription": "Native and cross-platform mobile experiences for iOS and Android.",
+			"modalTitle": "Expert Mobile Apps",
+			"description": "We create mobile applications that feel native and perform beautifully. Whether it's a cross-platform solution using React Native or a specialized native app, we ensure your mobile presence is robust, intuitive, and engaging for your users.",
+			"details": [
+				{
+                    "detailName": "Agile Process",
+                    "detailInfo": "Iterative cycles ensuring transparency and high quality at every milestone."
+				},
+                {
+                    "detailName": "24/7 Support",
+                    "detailInfo": "Post-launch monitoring and dedicated technical help desk for your peace of mind."
+                }
+			]
+		},
+        {
+			"id": "automation_service",
+			"icon": "<svg xmlns='http://www.w3.org/2000/svg' width='256' height='256' viewBox='0 0 256 256'><path fill='#fff' d='m213.85 125.46l-112 120a8 8 0 0 1-13.69-7l14.66-73.33l-57.63-21.64a8 8 0 0 1-3-13l112-120a8 8 0 0 1 13.69 7l-14.7 73.41l57.63 21.61a8 8 0 0 1 3 12.95Z' /></svg>",
+			"title": "Automation",
+			"shortDescription": "Smart workflows and bots to scale your operations effortlessly.",
+			"modalTitle": "Expert Automation",
+			"description": "Stop wasting time on repetitive tasks. Our automation experts design custom bots and workflows that integrate your favorite tools. From automated reporting to intelligent customer lead management, we help you focus on what really matters.",
+			"details": [
+				{
+                    "detailName": "Agile Process",
+                    "detailInfo": "Iterative cycles ensuring transparency and high quality at every milestone."
+				},
+                {
+                    "detailName": "24/7 Support",
+                    "detailInfo": "Post-launch monitoring and dedicated technical help desk for your peace of mind."
+                }
+			]
+		}
+    ],
+    "es": [
+        {
+			"id": "web_service",
+			"icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><path fill='#fff' d='M4.616 19q-.691 0-1.153-.462T3 17.384V6.616q0-.691.463-1.153T4.615 5h14.77q.69 0 1.152.463T21 6.616v10.769q0 .69-.463 1.153T19.385 19zm0-1H15v-3.884H4v3.269q0 .23.192.423t.423.192M16 18h3.385q.23 0 .423-.192t.192-.424V9.231h-4zM4 13.116h11V9.23H4z' /></svg>",
+			"title": "Desarrollo Web",
+			"shortDescription": "Aplicaciones web impresionantes y de alto rendimiento adaptadas a sus necesidades.",
+			"modalTitle": "Desarrollo Web Experto",
+			"description": "Nuestro proceso de desarrollo web se centra en la escalabilidad, la seguridad y una experiencia de usuario excepcional. Utilizamos tecnologías modernas como React, Next.js y Node.js para construir desde sitios corporativos hasta plataformas SaaS complejas. Cada línea de código está optimizada para SEO y rapidez.",
+			"details": [
+				{
+                    "detailName": "Proceso Ágil",
+                    "detailInfo": "Ciclos iterativos que garantizan transparencia y alta calidad en cada hito."
+				},
+                {
+                    "detailName": "Soporte 24/7",
+                    "detailInfo": "Monitoreo post lanzamiento y soporte técnico dedicado para su tranquilidad."
+                }
+			]
+		},
+        {
+			"id": "mobile_service",
+			"icon": "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><path fill='#fff' d='M7.616 22q-.672 0-1.144-.472T6 20.385V3.615q0-.69.463-1.152T7.616 2h8.846q.67 0 1.143.472q.472.472.472 1.144V6.83q.373.04.648.31q.275.269.275.648v1.769q0 .379-.275.648t-.648.31v9.869q0 .67-.472 1.143q-.472.472-1.143.472zm0-1h8.846q.269 0 .442-.173t.173-.442V3.615q0-.269-.173-.442T16.462 3H7.616q-.27 0-.443.173T7 3.616v16.769q0 .269.173.442t.443.173M7 21V3zm5.588-1.99q.22-.22.22-.549q0-.328-.22-.548t-.55-.22t-.548.22t-.22.549t.22.549t.549.22t.549-.22' /></svg>",
+			"title": "Apps Móviles",
+			"shortDescription": "Experiencias móviles nativas y multiplataforma para iOS y Android.",
+			"modalTitle": "Apps Móviles Expertas",
+			"description": "Creamos aplicaciones móviles que se sienten nativas y funcionan de maravilla. Ya sea una solución multiplataforma con React Native o una aplicación nativa especializada, garantizamos que su presencia móvil sea robusta, intuitiva y atractiva.",
+			"details": [
+				{
+                    "detailName": "Proceso Ágil",
+                    "detailInfo": "Ciclos iterativos que garantizan transparencia y alta calidad en cada hito."
+				},
+                {
+                    "detailName": "Soporte 24/7",
+                    "detailInfo": "Monitoreo post lanzamiento y soporte técnico dedicado para su tranquilidad."
+                }
+			]
+		},
+        {
+			"id": "automation_service",
+			"icon": "<svg xmlns='http://www.w3.org/2000/svg' width='256' height='256' viewBox='0 0 256 256'><path fill='#fff' d='m213.85 125.46l-112 120a8 8 0 0 1-13.69-7l14.66-73.33l-57.63-21.64a8 8 0 0 1-3-13l112-120a8 8 0 0 1 13.69 7l-14.7 73.41l57.63 21.61a8 8 0 0 1 3 12.95Z' /></svg>",
+			"title": "Automatización",
+			"shortDescription": "Flujos de trabajo inteligentes y bots para escalar sus operaciones sin esfuerzo.",
+			"modalTitle": "Automatización Experta",
+			"description": "Deje de perder tiempo en tareas repetitivas. Nuestros expertos en automatización diseñan bots y flujos de trabajo personalizados que integran sus herramientas favoritas para que pueda concentrarse en lo que realmente importa.",
+			"details": [
+				{
+                    "detailName": "Proceso Ágil",
+                    "detailInfo": "Ciclos iterativos que garantizan transparencia y alta calidad en cada hito."
+				},
+                {
+                    "detailName": "Soporte 24/7",
+                    "detailInfo": "Monitoreo post lanzamiento y soporte técnico dedicado para su tranquilidad."
+                }
+			]
+        }
+    ]
+}
