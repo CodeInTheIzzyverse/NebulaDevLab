@@ -77,3 +77,12 @@ Una landing page es una página web única creada para mostrar un producto, serv
 ### Nota
 
 Este proyecto es solo para **fines de portafolio y aprendizaje**. Todo el contenido, marca y datos son ficticios. La imagen fue generada mediante Inteligencia Artificial.
+
+## Screenshots
+
+![Hero Desktop](./assets/images/readme/HeroDekstop.png)
+![Hero Mobile](./assets/images/readme/HeroMobile.png)
+![Lang](./assets/images/readme/Lang.png)
+![Menu Mobile](./assets/images/readme/MenuMobile.png)
+![Modal](./assets/images/readme/Modal.png)
+![Projects](./assets/images/readme/Projects.png)
