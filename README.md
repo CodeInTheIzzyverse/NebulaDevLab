@@ -1,5 +1,7 @@
 # Nebula DevLab – Portfolio Landing Page
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c05d409f-63c0-43c7-809f-145b5b9f7f7e/deploy-status)](https://app.netlify.com/projects/nebuladevlab/deploys)
+
 ## English
 
 Nebula DevLab is a modern, visually engaging landing page project designed as a portfolio practice. This site is **not a real business**, but a demonstration of web development skills and UI/UX design for personal growth and presentation.
