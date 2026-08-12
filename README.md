@@ -12,10 +12,10 @@ A landing page is a single web page created to showcase a product, service, or b
 
 ### Technologies Used
 
-* **HTML5** – Semantic structure and accessibility
-* **CSS3** – Modular, responsive, and mobile-first styles
-* **JavaScript (ES6+)** – DOM manipulation, modular scripts
-* **JSON** – Dynamic content for services, projects, and localization
+* 🟠 **HTML5** – Semantic structure and accessibility
+* 🔵 **CSS3** – Modular, responsive, and mobile-first styles
+* 🟡 **JavaScript (ES6+)** – DOM manipulation, modular scripts
+* 🟢 **JSON** – Dynamic content for services, projects, and localization
 
 ### Methodologies & Models
 
